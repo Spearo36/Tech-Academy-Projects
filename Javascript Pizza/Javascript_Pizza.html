@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<title>Javascript | Pizza</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="./css/jpizza.css">
+	
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	</head>
+	<body>
+	<br>
+	<br>
+	
+		<!-- Checkbox Containers -->	
+		<div id="home">	
+			<div class="container">
+				<div class="text-center">
+				<span class="title">Javascript Pizzeria</span>
+					<form id="fmenu">
+					<div class="menu">
+						<div class="menu-overlay">
+						<h3>Size:</h3>
+							<input class="size" type="radio" name="Size" value="Personnal Pizza" checked> Personal Pizza 
+						<br>
+							<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza
+						<br>
+							<input class="size" type="radio" name="Size" value="Large Pizza"> Large Pizza
+						<br>
+							<input class="size" type="radio" name="Size" value="Java X Pizza"> Java X Pizza
+						<br>
+						</div>
+					</div>
+					<div class="menu">
+						<h3>Sauce:</h3>
+							<input class="sauce" type="radio" name="Sauce" value="Java Red Sauce" checked> Java Red Sauce
+						<br>
+							<input class="sauce" type="radio" name="Sauce" value="Pink Sauce"> Pink Sauce
+						<br>
+							<input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce
+						<br>
+							<input class="sauce" type="radio" name="Sauce" value="Garlic Sauce"> Garlic Sauce
+						<br>
+							<input class="sauce" type="radio" name="Sauce" value="Java Fire Sauce"> Java Fire Sauce
+						<br>
+					</div>
+					<div class="menu">
+						<h3>Cheese:</h3>
+							<input class="cheese" type="radio" name="Cheese" value="Java Blend" checked> Java Blend
+						<br>
+							<input class="cheese" type="radio" name="Cheese" value="Mozzarella"> Mozzarella
+						<br>
+							<input class="cheese" type="radio" name="Cheese" value="Italian 3"> Italian 3 
+						<br>
+							<input class="cheese" type="radio" name="Cheese" value="Extra"> Extra
+						<br>
+					</div>
+					<div class="menu">
+						<h3>Meats:</h3>
+							<input class="meats" type="checkbox" name="Meats" value="Pepperoni" checked> Pepperoni
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Sausage"> Sausage
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Salami"> Salami
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Proscuitto"> Proscuitto
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Chicken"> Chicken
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Bacon"> Bacon
+						<br>
+							<input class="meats" type="checkbox" name="Meats" value="Canadian Bacon"> Canadian Bacon
+						<br>
+					</div>
+					<div class="menu">
+						<h3>Toppings:</h3>
+							<input class="toppings" type="checkbox" name="Toppings" value="Tomatoes"> Tomatoes
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Mushrooms"> Mushrooms
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Bell Peppers"> Bell Peppers
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Olives"> Olives
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Basil"> Basil
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Spinach"> Spinach
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Onions"> Onions
+						<br>
+								<input class="toppings" type="checkbox" name="Toppings" value="Pineapple"> Pineapple
+						<br>
+					</div>
+					<div class="menu">
+						<h3>Crust:</h3>
+							<input class="crust" type="radio" name="crust" value="Java Twisted Crust" checked> Java Twisted Crust
+						<br>
+							<input class="crust" type="radio" name="crust" value="Italian"> Italian
+						<br>
+							<input class="crust" type="radio" name="crust" value="Cheese Stuffed"> Cheese Stuffed
+						<br>
+					</div>
+					</form>
+					<div class="controls">
+						<button type="button" onclick="receipt()">Start My Order</button>
+						<div>
+						<button type="button" onclick="clear()">Cancel</button>
+						</div>
+					</div>
+		
+		<!-- Receipt -->
+		
+		<div id="cart">
+			<div id="order1">
+				<h3>Your Order</h3>
+			</div>
+			<div id="total">
+				<h3>Total Due</h3>
+			</div>
+			<div id="showtext">
+
+		
+			
+	<!-- FOOTER -->
+		<div id="footer">
+			www.javascript.pizza &nbsp;|&nbsp; &copy; 2018
+		</div>
+	<!-- FOOTER -->
+	 
+	<script>
+function myFunction() {
+    var x = document.getElementByName("").value;
+    document.getElementById("").innerHTML = ;
+}
+
+	</script>
+	 
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
